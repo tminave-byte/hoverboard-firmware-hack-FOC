@@ -3,6 +3,10 @@
 #define CONFIG_H
 
 #include "stm32f1xx_hal.h"
+#define GD32F103
+
+#define PWM_PIN1        PA2
+#define PWM_PIN2        PA3
 
 // ############################### VARIANT SELECTION ###############################
 // PlatformIO: uncomment desired variant in platformio.ini
